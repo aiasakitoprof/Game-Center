@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GameCenter" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/default_blue</item>
+        <item name="colorPrimaryVariant">@color/default_blue</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+    </style>
+    <style name="Theme.GameCenter" parent="Base.Theme.GameCenter"/>
+</resources>

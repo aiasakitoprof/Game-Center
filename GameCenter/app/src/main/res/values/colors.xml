@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkGrey">#202020</color>
+    <color name="existingTile">#4268FF</color>
+    <color name="color2">#d3d3d3</color>
+    <color name="color4">#ff0000</color>
+    <color name="color8">#ff7e00</color>
+    <color name="color16">#ffe800</color>
+    <color name="color32">#a8ee90</color>
+    <color name="color64">#1dbd49</color>
+    <color name="color128">#1d92bd</color>
+    <color name="color256">#1d3dbd</color>
+    <color name="color512">#761dbd</color>
+    <color name="color1024">#bd1d84</color>
+    <color name="color2048">#ddb9d0</color>
+    <color name="default_blue">#05125E</color>
+</resources>

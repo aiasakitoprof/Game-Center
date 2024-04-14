@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="7"
+        android:columnOrderPreserved="false"
+        android:padding="4dp"
+        android:rowCount="7"
+        android:rowOrderPreserved="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1_1"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView1_2"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView1_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView1_4"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView1_5"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView1_6"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView1_7"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView2_1"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView2_2"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView2_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView2_4"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView2_5"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView2_6"
+            style="@style/GridLayoutTextInvisible"
+            android:layout_height="51dp"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView2_7"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView3_1"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView3_2"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView3_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView3_4"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView3_5"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView3_6"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView3_7"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView4_1"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView4_2"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView4_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView4_4"
+            style="@style/EmptyDot"
+            android:tag="void"
+            android:text=""
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/textView4_5"
+            style="@style/DotStyle"
+            android:layout_width="50dp"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView4_6"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView4_7"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_1"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_2"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_4"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_5"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_6"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView5_7"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView6_1"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView6_2"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView6_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView6_4"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView6_5"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView6_6"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView6_7"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView7_1"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView7_2"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView7_3"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView7_4"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView7_5"
+            style="@style/DotStyle"
+            android:tag="visible" />
+
+        <TextView
+            android:id="@+id/textView7_6"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+
+        <TextView
+            android:id="@+id/textView7_7"
+            style="@style/GridLayoutTextInvisible"
+            android:tag="invisible" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/senkuMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Back to menu"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
